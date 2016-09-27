@@ -17,3 +17,20 @@ doSomething();
 
 //log "Mow Lawn"
 doSomethingElse();
+
+//block scope
+let today = "Tuesday";
+if(today === "Tuesday") {
+  let message = "Today is Tuesday";
+  console.log(message);
+  console.log(today);
+}
+//Will not work in ES2015, as message only exsists in block scope.
+//console.log(message);
+
+let message = "goodbye";
+if (1 === 1) {
+  let message = "hello"
+  console.log(message);
+}
+console.log(message);

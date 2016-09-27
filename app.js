@@ -12,3 +12,15 @@ function doSomethingElse() {
 }
 doSomething();
 doSomethingElse();
+var today = "Tuesday";
+if (today === "Tuesday") {
+    var message_1 = "Today is Tuesday";
+    console.log(message_1);
+    console.log(today);
+}
+var message = "goodbye";
+if (1 === 1) {
+    var message_2 = "hello";
+    console.log(message_2);
+}
+console.log(message);
